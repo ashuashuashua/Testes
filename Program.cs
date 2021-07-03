@@ -24,7 +24,7 @@ namespace Curso
                 double salario = double.Parse(Console.ReadLine());
                 list.Add(new Funcionario(lul, nome, salario));
             }
-            Console.WriteLine("passa o id do aumento");
+            Console.WriteLine("passa o id ");
             int id = int.Parse(Console.ReadLine());
             Funcionario a = list.Find(x => x.Id == id);
             Console.WriteLine("passa o aumento");
